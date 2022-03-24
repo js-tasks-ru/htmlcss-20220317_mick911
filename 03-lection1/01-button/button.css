@@ -2,12 +2,19 @@
 
 .button {
     display: inline-block;
-    padding: 15px 15px;
+    padding: 15px 15px 14px;
     width: 189px;
     height: 48px;
     border-radius: 8px;
     box-sizing: border-box;
     cursor: pointer;
+    color: var(--white);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
 }
 
 .button:disabled {
@@ -47,6 +54,7 @@
 .button_alternate {
     border: 1px solid var(--grey-3);
     background: var(--white);
+    color: var(--grey-4);
 }
 
 .button_alternate:hover:enabled {
@@ -55,18 +63,4 @@
 
 .button_alternate:active:enabled {
     border: 1px solid var(--black);
-}
-
-.button__title {
-    color: var(--white);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    text-align: center;
-}
-
-.button__title_alternate {
-    color: var(--grey-4);
 }
