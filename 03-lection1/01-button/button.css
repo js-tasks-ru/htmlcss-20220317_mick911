@@ -6,6 +6,7 @@
     width: 189px;
     height: 48px;
     border-radius: 8px;
+    border: none;
     box-sizing: border-box;
     cursor: pointer;
     color: var(--white);
@@ -24,7 +25,6 @@
 }
 
 .button_primary {
-    border: none;
     background: var(--primary);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
@@ -38,7 +38,6 @@
 }
 
 .button_secondary {
-    border: none;
     background: var(--secondary);
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
