@@ -1,7 +1,5 @@
-.accordion {
-    width: 730px;
-    height: 72px;
-    max-height: 144px;
+.accordion__item {
+    
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
@@ -20,10 +18,10 @@
 
 }
 
-.accordion[open] {
+.accordion__item[open] {
     height: 144px;
 }
-.accordion[open]  .accordion__summary  {
+.accordion__item[open]  .accordion__summary  {
     padding-bottom: 16px;
 }
 
@@ -31,7 +29,7 @@
     padding:0px 32px 32px 32px;
 }
 
-.accordion__content p {
+.accordion__text{
     margin: 0px 0px;
     font-family: 'Inter';
     font-style: normal;
@@ -41,10 +39,10 @@
 }
 
 
-details > summary {
+.accordion__item > .accordion__summary {
     list-style: none;
 }
-details > summary::-webkit-details-marker {
+.accordion__item > .accordion__summary::-webkit-details-marker {
     display: none;
 }
 
