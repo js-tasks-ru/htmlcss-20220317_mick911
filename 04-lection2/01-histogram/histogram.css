@@ -68,4 +68,6 @@
     background: var(--blue);
     box-sizing: border-box;
     width: calc(100% / 30);
+    flex-basis: 9px;
+    flex-grow: 1;
 }
