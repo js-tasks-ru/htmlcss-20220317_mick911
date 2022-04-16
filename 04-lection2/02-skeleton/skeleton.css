@@ -26,7 +26,7 @@
 .skeleton__avatar {
     width: 64px;
     height: 64px;
-    border-radius: 45%;
+    border-radius: 50%;
     background: var(--grey-2);
 }
 
@@ -35,10 +35,10 @@
     background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
-.skeleton__item_172 {
+.skeleton__item_small {
     width: 172px;
 }
 
-.skeleton__item_257 {
+.skeleton__item_large {
     width: 257px;
 }
