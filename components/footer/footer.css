@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 71px 400px 136px 400px;
+    box-sizing: border-box;
+}
+
+.footer__title {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 48px;
+
+    color: var(--black);
+    margin: 0px 0px;
+}
+
+.footer__description {
+    display: flex;
+    flex-wrap: wrap;
+    width: 640px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+
+    /* Black */
+    color: var(--black);
+    margin: 0px 0px;
+
+}

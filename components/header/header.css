@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 237px;
+    padding: 96px 0 77px 0;
+}
+
+.header__title {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    /* identical to box height, or 128% */
+    margin: 0px 0px;
+    /* Black */
+    color: var(--black);
+
+}
