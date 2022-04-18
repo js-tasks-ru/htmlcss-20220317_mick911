@@ -1,0 +1,14 @@
+.preview {
+    display: flex;
+    flex-grow: 1;
+    background: var(--preview-background);
+    padding: 68px 0px 204px 0px;
+}
+
+.preview__inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px
+}
