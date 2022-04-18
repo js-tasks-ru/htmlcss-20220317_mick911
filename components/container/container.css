@@ -1,6 +1,6 @@
 .container {
-    padding: 0px 165px;
     flex-flow: row wrap;
-    max-width: 1440px;
+    max-width: 1110px;
     box-sizing: border-box;
+    margin: auto;
 }

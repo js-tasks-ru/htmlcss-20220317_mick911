@@ -1,7 +1,7 @@
 .header {
     display: flex;
     align-items: center;
-    height: 237px;
+    min-height: 237px;
     padding: 96px 0 77px 0;
 }
 
