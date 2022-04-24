@@ -1,0 +1,6 @@
+.container {
+    flex-flow: row wrap;
+    max-width: 1110px;
+    box-sizing: border-box;
+    margin: auto;
+}

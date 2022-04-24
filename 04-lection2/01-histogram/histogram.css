@@ -7,6 +7,10 @@
     padding: 19px 24px 24px 24px;
 }
 
+.histogram_preview {
+    max-height: 157px;
+}
+
 .histogram__top {
     display: flex;
     flex-direction: row;
