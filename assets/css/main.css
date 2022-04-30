@@ -29,6 +29,7 @@
     --secondary-hover: var(--dark-purple);
 
     --preview-background: #F9FAFC;
+    --modal-title-color: #334D6E;
 }
 
 * {
